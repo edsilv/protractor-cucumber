@@ -1,0 +1,14 @@
+{
+    "name": "protractor-cucumber",
+    "private": false,
+    "version": "0.1.0",
+    "repository": "https://github.com/edsilv/protractor-cucumber",
+    "license": "MIT",
+    "devDependencies": {
+        "grunt-http-server": "^1.0.0",
+        "cucumber": "^0.4.0",
+        "grunt": "^0.4.5",
+        "grunt-protractor-runner": "^1.1.4",
+        "protractor": "1.3.1"
+    }
+}
