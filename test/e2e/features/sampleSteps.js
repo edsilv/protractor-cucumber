@@ -25,12 +25,9 @@ var sampleSteps = function() {
 			//});
 
 			ptor.findElement(protractor.By.css('.wellcomePlayer')).then(function(el) {
-
-				if(el.isDisplayed()){
-					callback();
-				} else {
-					callback.fail("wellcomePlayer div not found");
-				}
+				callback();
+			}, function(){
+				callback.fail("wellcomePlayer div not found");
 			});
 
 		});
